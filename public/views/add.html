@@ -1,0 +1,12 @@
+<div class="jumbotron text-center" ng-controller="AddController">
+	<h1>Add Book</h1>
+
+	<p>{{ tagline }}</p>
+
+	<form name="appForm" novalidate class="app-form"> 
+		<label>Title</label> : <input type="text" name="title" ng-model="book.title" required><br/>
+		<label>Author</label> : <input type="text" name="author" ng-model="book.author" required><br/> 
+		<label>Price</label> : <input type="text" name="price" ng-model="book.price" required><br/> 
+		<button ng-click="AddItem()">Add</button> 
+	</form>
+</div>

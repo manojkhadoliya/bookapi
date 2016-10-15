@@ -1,0 +1,1 @@
+angular.module('sampleApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'AddCtrl', 'DeleteCtrl', 'ViewCtrl', 'AddService', 'DeleteService', 'ViewService']);
